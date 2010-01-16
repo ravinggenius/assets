@@ -9,5 +9,5 @@ get '/' do
 end
 
 not_found do
-  'Sorry, couldn\t find it.'
+  'Couldn\t find it. Sorry about that.'
 end
