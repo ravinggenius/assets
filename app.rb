@@ -9,5 +9,5 @@ get '/' do
 end
 
 not_found do
-  'Couldn\t find it. Sorry about that.'
+  haml :'errors/not_found'
 end
