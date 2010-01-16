@@ -1,5 +1,3 @@
-*.sqlite3
-.DS_Store
 config/database.yml
 config/deploy.rb
 db/*.db
@@ -7,6 +5,7 @@ db/*.sqlite3
 doc/api
 doc/app
 doc/guides
+.DS_Store
 log/*
 log/*.log
 nbproject
@@ -14,5 +13,5 @@ nbproject/**/*
 public/stylesheets/*.css
 .sass-cache
 .sass-cache/**/*
+*.sqlite3
 tmp/**/*
-
