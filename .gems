@@ -1,2 +1,4 @@
 sinatra
 haml
+sprockets
+pp

@@ -1,0 +1,12 @@
+---
+960gs:
+  '1.4': [ 'code/css/960.css' ]
+  '1.4-24': [ 'code/css/960_24_col.css' ]
+eric_meyer:
+  '1.0': [ 'reset.css' ]
+jquery:
+  '1.4': [ 'jquery.min.js' ]
+jquery_plugins:
+jquery_ui:
+modernizr:
+  '1.1': [ 'modernizr-1.1.min.js' ]
