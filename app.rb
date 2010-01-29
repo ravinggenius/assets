@@ -11,13 +11,11 @@ get '/' do
   haml :index
 end
 
-get '/js' do
-  concatenation = Concatenation.new
-  params.each do |asset, version|
-    concatenation.assets << Asset.new(asset, version)
+[ :css, :js ].each do |type|
+  get "/#{type}" do
+    content_type type
+    Concatenation.new(params).to_s
   end
-  content_type :js
-  concatenation.to_s
 end
 
 not_found do

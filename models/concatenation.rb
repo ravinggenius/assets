@@ -1,16 +1,12 @@
 class Concatenation
   GLUE = "\n\n\n\n\n"
-  attr_accessor :assets
 
-  def initialize
-    @assets ||= []
+  def initialize params
+    @assets = params.map { |name, version| Asset.find name, version }
   end
 
   def to_s
-    reply = []
-    @assets.each do |asset|
-      asset.paths.each { |path| reply << File.read(path) }
-    end
+    reply = @assets.map { |asset| asset.to_s }
     reply.join GLUE
   end
 end
