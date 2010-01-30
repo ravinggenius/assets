@@ -1,10 +1,10 @@
 %p Here are the currently available packages and versions:
 %ul
-  - @assets.each do |name, versions|
-    %li
-      = name
-      - next unless versions
-        %ul
-          - versions.each do |version, stubs|
-            %li
-              = version
+- @assets.each do |name, versions|
+  %li
+    = name
+    - next unless versions
+    %ul
+      - versions.each do |version, stubs|
+        %li
+          = version
