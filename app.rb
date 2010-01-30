@@ -18,6 +18,11 @@ end
   end
 end
 
+get '/v' do
+  @assets = Asset.all
+  haml :versions
+end
+
 not_found do
   haml :'errors/not_found'
 end
