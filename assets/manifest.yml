@@ -11,3 +11,5 @@ jquery_plugins:
 jquery_ui:
 modernizr:
   '1.1': [ 'modernizr/1.1/modernizr-1.1.min.js' ]
+html5reset:
+  '1.4': [ 'html5reset/1.4/html5-reset-1.4.css' ]
