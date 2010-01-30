@@ -1,15 +1,16 @@
 ---
+eric_meyer-reset:
+  '1.0': [ 'eric_meyer-reset/1.0/reset.css' ]
+eric_meyer-diag:
+  '1.0': [ 'eric_meyer-diag/1.0/diagnostic.css' ]
+html5reset:
+  '1.4': [ 'html5reset/1.4/html5-reset-1.4.css' ]
 960gs:
   '1.4': [ '960gs/1.4/code/css/960.css' ]
   '1.4-24': [ '960gs/1.4/code/css/960_24_col.css' ]
-eric_meyer:
-  '1.0': [ 'eric_meyer/1.0/reset.css' ]
-  'diag': [ 'eric_meyer/1.0/diagnostic.css' ]
+modernizr:
+  '1.1': [ 'modernizr/1.1/modernizr-1.1.min.js' ]
 jquery:
   '1.4': [ 'jquery/1.4/jquery.min.js' ]
 jquery_plugins:
 jquery_ui:
-modernizr:
-  '1.1': [ 'modernizr/1.1/modernizr-1.1.min.js' ]
-html5reset:
-  '1.4': [ 'html5reset/1.4/html5-reset-1.4.css' ]
