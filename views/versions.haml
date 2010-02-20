@@ -1,10 +1,14 @@
-%p Here are the currently available packages and versions:
-%ul
-- @assets.each do |name, versions|
-  %li
-    = name
-    - next unless versions
-    %ul
-      - versions.each do |version, stubs|
-        %li
-          = version
+%header{ :id => 'branding' }= @title
+%section{ :id => 'content' }
+  %p Here are the currently available packages and versions:
+  %ul
+  - @assets.each do |name, versions|
+    %li
+      = name
+      - next unless versions
+      %ul
+        - versions.each do |version, stubs|
+          %li
+            = version
+%footer{ :id => 'credits' }
+  %p &copy; 2009 Thomas Ingram
