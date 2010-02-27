@@ -15,6 +15,7 @@ modernizr:
 jquery:
   '1.4': [ 'jquery/1.4/jquery.min.js' ]
 jquery_plugins:
+  'cookie-1.0': [ 'jquery_plugins/cookie/1.0/jquery.cookie.js' ]
 jquery_ui:
 sizzle:
   '4846c48': [ 'sizzle/4846c48/sizzle.js' ]
