@@ -1,1 +1,1 @@
-Experimental Sinatra project using Compass.
+Simple content delivery network, primarily for personal projects and learning.
