@@ -29,6 +29,6 @@ class Asset
   private
 
   def self.store
-    YAML.load File.new ASSET_ROOT + '/manifest.yml'
+    YAML.load(File.new ASSET_ROOT + '/manifest.yml')
   end
 end
