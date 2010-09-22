@@ -1,5 +1,5 @@
-source :gemcutter
+source :rubygems
 
-gem 'sinatra'
-gem 'haml'
 gem 'compass'
+gem 'haml'
+gem 'sinatra'
